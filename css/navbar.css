@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-family: "Plus Jakarta Sans";
-    background-color: black;
-}
-a{
-    text-decoration: none;
-}
-
 .navbar{
     display: flex;
     position: fixed;
@@ -43,5 +25,3 @@ a{
     scale: 110%;
     cursor: pointer;
 }
-
-
