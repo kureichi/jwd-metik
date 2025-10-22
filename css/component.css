@@ -1,0 +1,45 @@
+
+input {
+    color: white;
+    font-family: "Plus Jakarta Sans";
+}
+
+.title {
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.container .field {
+    display: flex;
+    gap: 10px;
+    width: 80dvw;
+}
+
+.contact .field form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .field form input {
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 300px;
+    background: none;
+    outline: none;
+    transition: 0.2s;
+    border: 1px solid white;
+    opacity: 50%;
+}
+.contact .field form input:hover {
+    border: 1px solid white;
+    opacity: 100%;
+}
