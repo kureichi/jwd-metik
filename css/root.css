@@ -6,13 +6,25 @@
 }
 
 body {
+  overflow-y: hidden;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
   font-family: "Plus Jakarta Sans";
   background-color: black;
-  padding-bottom: 100px;
+  /* padding-bottom: 500px; */
+  height: 100dvh;
+  /* width: 100dvw; */
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 a {
