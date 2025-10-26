@@ -1,74 +1,83 @@
-
 input {
-    color: white;
-    font-family: "Plus Jakarta Sans";
+  color: white;
+  font-family: "Plus Jakarta Sans";
 }
 
 .container-video {
-    height: 100dvh;
-    width: 100%;
-    /* background-color: brown; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 100px;
+  height: 100dvh;
+  width: 100%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .container-video video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 40%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 40%;
 }
 
 .title {
-    width: 500px;
-    left: 0;
-    /* text-align: center; */
-    /* margin-top: 100px; */
-    top:50%;
-    height: 200px;
-    margin-top: -100px;
-    margin-left: 100px;
-    position: absolute;
-    font-size: 40px;
+  width: 500px;
+  left: 0;
+  /* text-align: center; */
+  /* margin-top: 100px; */
+  top: 50%;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: 100px;
+  position: absolute;
+  /* font-size: 40px; */
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.title h1 {
+  margin-top: -35px;
+  font-size: 100px;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
 }
 
 .container .header {
-    font-size: x-large;
-    font-weight: 600;
+  font-size: x-large;
+  font-weight: 600;
 }
 
 .container .field {
-    display: flex;
-    gap: 10px;
-    width: 80dvw;
+  display: flex;
+  gap: 10px;
+  width: 80dvw;
 }
 
 .contact .field form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .contact .field form input {
-    border-radius: 20px;
-    padding: 10px 20px;
-    width: 300px;
-    background: none;
-    outline: none;
-    transition: 0.2s;
-    border: 1px solid white;
-    opacity: 50%;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 300px;
+  background: none;
+  outline: none;
+  transition: 0.2s;
+  border: 1px solid white;
+  opacity: 50%;
 }
+
 .contact .field form input:hover {
-    border: 1px solid white;
-    opacity: 100%;
+  border: 1px solid white;
+  opacity: 100%;
 }
