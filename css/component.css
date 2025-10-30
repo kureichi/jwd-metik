@@ -90,7 +90,24 @@ video {
   opacity: 50%;
 }
 
+.contact .field form textarea {
+  border-radius: 20px;
+  padding: 20px 20px;
+  width: 400px;
+  background: none;
+  outline: none;
+  transition: 0.2s;
+  border: 1px solid white;
+  color: white;
+  opacity: 50%;
+}
+
 .contact .field form input:hover {
+  border: 1px solid white;
+  opacity: 100%;
+}
+
+.contact .field form textarea:hover {
   border: 1px solid white;
   opacity: 100%;
 }
