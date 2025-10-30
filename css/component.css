@@ -176,5 +176,47 @@ video {
 
 
 .social-media {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  padding: 80px;
+  align-items: center;
+  gap: 90px;
+  width: 100dvw;
+  min-height: 300px;
+}
+
+.footer .field {
+  display: flex;
+  gap: 90px;
+  width: 850px;
+}
+
+.footer .field .item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer .field .item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer .field .item .header {
+  font-size: large;
+  font-weight: 900;
+}
+
+.footer .field .item .items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: small;
 }
