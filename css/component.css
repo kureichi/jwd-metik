@@ -90,7 +90,7 @@ video {
 .contact .field form input {
   border-radius: 20px;
   padding: 10px 20px;
-  width: 300px;
+  width: 400px;
   background: none;
   outline: none;
   transition: 0.2s;
@@ -101,6 +101,24 @@ video {
 .contact .field form input:hover {
   border: 1px solid white;
   opacity: 100%;
+}
+
+.contact .field form button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 442px;
+  outline: none;
+  transition: 0.2s;
+  border: 1px solid white;
+  opacity: 50%;
+  background-color: white;
+  color: black;
+}
+
+.contact .field form button:hover {
+  border: 1px solid white;
+  opacity: 100%;
+  cursor: pointer;
 }
 
 .preview {

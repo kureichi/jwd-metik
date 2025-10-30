@@ -10,6 +10,7 @@ body {
 }
 
 html {
+  scroll-behavior: smooth;
   overflow-y: hidden;
 }
 
@@ -25,6 +26,7 @@ html {
   /* width: 100dvw; */
   overflow-y: auto;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
