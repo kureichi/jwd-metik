@@ -215,4 +215,9 @@ video {
   flex-direction: column;
   gap: 10px;
   font-size: small;
+  opacity: 80%;
+}
+
+.footer .copyright {
+  opacity: 50%;
 }
