@@ -178,6 +178,7 @@ video {
 .footer {
   display: flex;
   flex-direction: column;
+  margin-top: 90px;
   border-top: 0.5px solid rgba(255, 255, 255, 0.5);
   padding: 80px;
   align-items: center;
