@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Plus Jakarta Sans";
 }
 
 body {
@@ -19,7 +20,6 @@ html {
   flex-direction: column;
   align-items: center;
   color: white;
-  font-family: "Plus Jakarta Sans";
   background-color: black;
   /* padding-bottom: 500px; */
   height: 100dvh;
