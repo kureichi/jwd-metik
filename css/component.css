@@ -73,6 +73,15 @@ video {
   display: flex;
 }
 
+.contact {
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .field {
+  width: fit-content;
+}
+
 .contact .field form {
   display: flex;
   gap: 10px;
