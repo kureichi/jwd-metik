@@ -147,9 +147,14 @@ video {
   margin-top: 30px;
 }
 
+.preview .field {
+  width: 100dvw;
+}
+
 .preview .preview-item {
   display: grid;
   grid-template: 300px 300px / auto auto;
+  padding: 0 200px;
   gap: 10px;
   position: relative;
 }
