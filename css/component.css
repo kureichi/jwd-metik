@@ -65,6 +65,10 @@ video {
   flex-direction: column;
 }
 
+.container .field p {
+  opacity: 80%;
+}
+
 .home {
   margin-top: 50px;
 }
