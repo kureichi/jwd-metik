@@ -4,13 +4,12 @@ input {
 }
 
 .container-video {
+  display: flex;
+  margin-bottom: 100px;
   height: 100dvh;
   width: 100%;
-  /* background-color: brown; */
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 100px;
   opacity: 40%;
 }
 
@@ -27,16 +26,9 @@ video {
 }
 
 .title {
-  /* width: 500px; */
   left: 10%;
-  /* text-align: center; */
-  /* margin-top: 100px; */
   top: 40%;
-  /* height: 200px; */
-  /* margin-top: -100px; */
-  /* margin-left: 100px; */
   position: absolute;
-  /* font-size: 40px; */
 }
 
 .title p {
@@ -56,9 +48,9 @@ video {
 
 .container {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
   padding: 20px;
+  gap: 10px;
+  flex-direction: column;
 }
 
 .container .header {
@@ -68,8 +60,8 @@ video {
 
 .container .field {
   display: flex;
-  gap: 10px;
   width: 800px;
+  gap: 10px;
   flex-direction: column;
 }
 
@@ -83,8 +75,8 @@ video {
 
 .contact .field form {
   display: flex;
-  flex-direction: column;
   gap: 10px;
+  flex-direction: column;
 }
 
 .contact .field form input {
@@ -104,15 +96,15 @@ video {
 }
 
 .contact .field form button {
-  border-radius: 20px;
-  padding: 10px 20px;
   width: 442px;
-  outline: none;
-  transition: 0.2s;
+  border-radius: 20px;
   border: 1px solid white;
+  outline: none;
+  padding: 10px 20px;
   opacity: 50%;
-  background-color: white;
   color: black;
+  background-color: white;
+  transition: 0.2s;
 }
 
 .contact .field form button:hover {
