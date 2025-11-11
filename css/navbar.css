@@ -1,4 +1,5 @@
 .navbar {
+  font-family: 'Stack Sans Headline';
   display: flex;
   position: fixed;
   width: 100dvw;
