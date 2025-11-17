@@ -17,6 +17,8 @@ const containers = document.querySelectorAll('.container')
 
 containers.forEach(container => obs.observe(container))
 const footer = document.getElementById('footer')
+
+obs.observe(document.getElementById('container-welcome'))
 obs.observe(footer)
 
 // Buat hover video, video bakalan play klo mouse nyentuh doang
