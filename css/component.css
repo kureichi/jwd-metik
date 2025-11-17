@@ -21,6 +21,11 @@ textarea {
   position: relative;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+.container-welcome.show {
+  opacity: 100;
 }
 
 video {
@@ -58,6 +63,11 @@ video {
   flex-direction: column;
   max-width: 800px;
   padding: 0 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.container.show {
+  opacity: 100;
 }
 
 .container .header h1 {
@@ -240,13 +250,17 @@ video {
 }
 
 .preview .preview-item-column .item:hover {
-  scale: 101%;
+  scale: 105%;
   cursor: pointer;
-  opacity: 50%;
 }
 
 .preview .preview-item-column .item video {
   opacity: 50%;
+  transition: 0.5s;
+}
+
+.preview .preview-item-column .item video:hover {
+  opacity: 100%;
 }
 
 .preview .preview-item-column .item .desc {
@@ -268,6 +282,11 @@ video {
   gap: 90px;
   width: 100dvw;
   min-height: 300px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.footer.show {
+  opacity: 100;
 }
 
 .footer .field {
